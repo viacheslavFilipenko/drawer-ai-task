@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c472f434-c733-414a-870a-631c01a1ede3" name="Changes" comment="add unit tests for the component">
-      <change afterPath="$PROJECT_DIR$/src/components/CanvasWrapper/hooks/useCanvasDrawing.test.tsx" afterDir="false" />
+    <list default="true" id="c472f434-c733-414a-870a-631c01a1ede3" name="Changes" comment="add unit tests for the hook">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707819646535</updated>
       <workItem from="1707819647678" duration="1304000" />
-      <workItem from="1707821024654" duration="18406000" />
+      <workItem from="1707821024654" duration="18561000" />
     </task>
     <task id="LOCAL-00001" summary="Create initial project skeleton">
       <created>1707820251292</created>
@@ -153,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707844431665</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add unit tests for the hook">
+      <created>1707848102901</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707848102901</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +179,7 @@
     <MESSAGE value="Create initial project skeleton" />
     <MESSAGE value="add test task" />
     <MESSAGE value="add unit tests for the component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add unit tests for the component" />
+    <MESSAGE value="add unit tests for the hook" />
+    <option name="LAST_COMMIT_MESSAGE" value="add unit tests for the hook" />
   </component>
 </project>
