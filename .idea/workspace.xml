@@ -4,14 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c472f434-c733-414a-870a-631c01a1ede3" name="Changes" comment="Create initial project skeleton" />
+    <list default="true" id="c472f434-c733-414a-870a-631c01a1ede3" name="Changes" comment="Create initial project skeleton">
+      <change afterPath="$PROJECT_DIR$/src/common/definitions/line.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/enums/enums.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/maps/maps.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CanvasWrapper/CanvasWrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CanvasWrapper/hooks/useCanvasDrawing.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DrawingHistory/DrawingHistory.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SizeControls/SizeControls.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contexts/DrawingHistoryContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,10 +61,20 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "C:\\Users\\filip\\Documents\\drawer-ai-task\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\filip\Documents\drawer-ai-task\src\components\CanvasWrapper\hooks" />
+      <recent name="C:\Users\filip\Documents\drawer-ai-task\src\components\CanvasWrapper" />
+      <recent name="C:\Users\filip\Documents\drawer-ai-task\src\common" />
+      <recent name="C:\Users\filip\Documents\drawer-ai-task\src\components\CanvasWrapper " />
+      <recent name="C:\Users\filip\Documents\drawer-ai-task\src\common\maps" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,6 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707819646535</updated>
       <workItem from="1707819647678" duration="1304000" />
+      <workItem from="1707821024654" duration="14056000" />
     </task>
     <task id="LOCAL-00001" summary="Create initial project skeleton">
       <created>1707820251292</created>
@@ -53,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707820251292</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create initial project skeleton">
+      <created>1707821157491</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707821157491</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

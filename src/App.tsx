@@ -1,25 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { CanvasSize } from "./common/enums/enums";
+import { CANVAS_SIZE } from "./common/maps/maps";
+import { SizeControls } from "./components/SizeControls/SizeControls";
+import { CanvasWrapper } from "./components/CanvasWrapper/CanvasWrapper";
+import { Box, Grid } from "@mui/material";
+import { DrawingHistory } from "./components/DrawingHistory/DrawingHistory";
+import { DrawingHistoryProvider } from "./contexts/DrawingHistoryContext";
 
 function App() {
+  const [currentSize, setCurrentSize] = React.useState(CanvasSize.Medium);
+
+  const sizeDimensions = CANVAS_SIZE[currentSize];
+  const handleSizeChange = (size: CanvasSize) => setCurrentSize(size);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <DrawingHistoryProvider>
+          <Box m={3} />
+          <Grid container gap={1}>
+              <Grid xs={9} item container justifyContent="center" alignItems="flex-start">
+                  <SizeControls onSizeChange={handleSizeChange} size={currentSize} />
+                  <CanvasWrapper width={sizeDimensions.width} height={sizeDimensions.height} />
+              </Grid>
+              <Grid item xs={2}>
+                  <DrawingHistory />
+              </Grid>
+          </Grid>
+      </DrawingHistoryProvider>
   );
 }
 
