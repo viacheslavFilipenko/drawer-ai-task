@@ -15,6 +15,7 @@ export const CanvasWrapper: React.FC<Props> = ({ width, height }) => {
             <Grid item xs={9} container justifyContent="center" alignItems="center" flexDirection="column">
                 <Typography variant="h4" textAlign="center">Canvas</Typography>
                 <canvas
+                    data-testid="canvasDrawing"
                     ref={canvasRef}
                     style={{
                         border: '1px solid #000',

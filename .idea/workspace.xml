@@ -4,23 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c472f434-c733-414a-870a-631c01a1ede3" name="Changes" comment="Create initial project skeleton">
-      <change afterPath="$PROJECT_DIR$/src/common/definitions/line.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/enums/enums.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/maps/maps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CanvasWrapper/CanvasWrapper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CanvasWrapper/hooks/useCanvasDrawing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DrawingHistory/DrawingHistory.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SizeControls/SizeControls.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contexts/DrawingHistoryContext.tsx" afterDir="false" />
+    <list default="true" id="c472f434-c733-414a-870a-631c01a1ede3" name="Changes" comment="add test task">
+      <change afterPath="$PROJECT_DIR$/src/components/CanvasWrapper/CanvasWrapper.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DrawingHistory/DrawingHistory.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SizeControls/SizeControls.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CanvasWrapper/CanvasWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CanvasWrapper/CanvasWrapper.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707819646535</updated>
       <workItem from="1707819647678" duration="1304000" />
-      <workItem from="1707821024654" duration="14056000" />
+      <workItem from="1707821024654" duration="14724000" />
     </task>
     <task id="LOCAL-00001" summary="Create initial project skeleton">
       <created>1707820251292</created>
@@ -100,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707821157491</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add test task">
+      <created>1707843708842</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707843708842</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create initial project skeleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create initial project skeleton" />
+    <MESSAGE value="add test task" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test task" />
   </component>
 </project>
