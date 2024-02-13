@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c472f434-c733-414a-870a-631c01a1ede3" name="Changes" comment="add test task">
-      <change afterPath="$PROJECT_DIR$/src/components/CanvasWrapper/CanvasWrapper.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DrawingHistory/DrawingHistory.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SizeControls/SizeControls.test.tsx" afterDir="false" />
+    <list default="true" id="c472f434-c733-414a-870a-631c01a1ede3" name="Changes" comment="add unit tests for the component">
+      <change afterPath="$PROJECT_DIR$/src/components/CanvasWrapper/hooks/useCanvasDrawing.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CanvasWrapper/CanvasWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CanvasWrapper/CanvasWrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="tsconfig.json" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -49,6 +49,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "C:/Users/filip/Documents/drawer-ai-task/node_modules/react-scripts",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "C:\\Users\\filip\\Documents\\drawer-ai-task\\node_modules\\typescript\\lib",
@@ -64,6 +65,55 @@
       <recent name="C:\Users\filip\Documents\drawer-ai-task\src\common\maps" />
     </key>
   </component>
+  <component name="RunManager" selected="Jest.useCanvasDrawing Hook">
+    <configuration name="CanvasWrapper" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/components/CanvasWrapper/CanvasWrapper.test.tsx" />
+      <test-names>
+        <test-name value="CanvasWrapper" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="useCanvasDrawing Hook" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/components/CanvasWrapper/hooks/useCanvasDrawing.test.tsx" />
+      <test-names>
+        <test-name value="useCanvasDrawing Hook" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="useCanvasDrawing Hook.starts and stops drawing correctly" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/CanvasWrapper/hooks/useCanvasDrawing.test.tsx" />
+      <test-names>
+        <test-name value="useCanvasDrawing Hook" />
+        <test-name value="starts and stops drawing correctly" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.useCanvasDrawing Hook" />
+        <item itemvalue="Jest.useCanvasDrawing Hook.starts and stops drawing correctly" />
+        <item itemvalue="Jest.CanvasWrapper" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707819646535</updated>
       <workItem from="1707819647678" duration="1304000" />
-      <workItem from="1707821024654" duration="14724000" />
+      <workItem from="1707821024654" duration="18406000" />
     </task>
     <task id="LOCAL-00001" summary="Create initial project skeleton">
       <created>1707820251292</created>
@@ -96,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707843708842</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add unit tests for the component">
+      <created>1707844431665</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707844431665</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +173,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create initial project skeleton" />
     <MESSAGE value="add test task" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test task" />
+    <MESSAGE value="add unit tests for the component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add unit tests for the component" />
   </component>
 </project>
